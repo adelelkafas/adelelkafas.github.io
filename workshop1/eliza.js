@@ -145,10 +145,10 @@ var rules = {
     "In what way are you ~y?",
     "Do you want to be ~y?",
   ],
-  "~*x am I ~*y": [
-    "Do you believe you are ~y?",
-    "Would you want to be ~y?",
-    "You wish I would tell you you are ~y?",
+  "~*x am I ugly ~*y": [
+    "Well you're not cute ~y?",
+    "Yes ~y?",
+    "You wish I would tell you no ~y?",
     "What would it mean if you were ~y?",
   ],
   "~*x am ~*y": [
