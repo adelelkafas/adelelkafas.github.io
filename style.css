@@ -35,7 +35,7 @@ a:visited {
 }
 
 img{
-    padding: .00000001px;
+    padding: .000000000000000000000000000000001px;
 }
 
 .headshot{
@@ -54,7 +54,7 @@ img{
 }
 
 .button {
-    background: white;
+    background: orange;
     font-size: 110%;
     color:gray;
     padding: 4px;
