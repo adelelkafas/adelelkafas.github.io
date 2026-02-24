@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Crowd Runner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="phone-shell">
+      <header class="hud-top">
+        <button class="back">BACK</button>
+        <div class="score" id="crowdCount">48</div>
+      </header>
+
+      <section class="track" id="track">
+        <div class="roller"></div>
+
+        <div class="gate-row" data-y="22">
+          <button class="gate gate-blue" data-effect="multiply" data-value="5">x5</button>
+          <button class="gate gate-gold" data-effect="bonus" data-value="999">x999</button>
+        </div>
+
+        <div class="gate-row" data-y="52">
+          <button class="gate gate-blue" data-effect="add" data-value="75">+75</button>
+          <button class="gate gate-gold" data-effect="multiply" data-value="2">x2</button>
+        </div>
+
+        <div class="gate-row" data-y="78">
+          <button class="gate gate-blue" data-effect="subtract" data-value="30">-30</button>
+          <button class="gate gate-gold" data-effect="add" data-value="197">197</button>
+        </div>
+
+        <div id="swarm" aria-hidden="true"></div>
+        <div class="player" id="player"></div>
+      </section>
+
+      <footer class="ad-card">
+        <div class="ad-icon"></div>
+        <div>
+          <strong>Whiteout Survival</strong>
+          <p>New Areas to discover amid the permafrost</p>
+        </div>
+        <button class="install">Get</button>
+      </footer>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
